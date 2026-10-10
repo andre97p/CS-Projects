@@ -1,10 +1,10 @@
 # CS-Projects references
-A single file pointing to the repositories and jupyter notebooks related to my academical projects.
+A single file pointing to the repositories and jupyter notebooks related to my academic projects.
 
 
 Table of Contents:
  1. **Heart Failure Prediction**
- 2. **Fruit Classificator**
+ 2. **Fruit Classifier**
  3. **Gym Enrollment Web App**
  4. **Pipeline CI/CD**
  5. **APT agent based on adversarial Cyber Ranges**
@@ -45,7 +45,7 @@ Table of Contents:
 
 
 
-## Fruits Classificator
+## Fruits Classifier
 
 *COURSE*: 
 
