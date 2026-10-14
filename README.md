@@ -51,7 +51,15 @@ Table of Contents:
 
 > **Avdanced Machine Learning**
 
-*BRIEF DESCRIPTION*: Given a cleaned dataset of images representing single fruits categories, the model implemented a Convolutional Neural Network that classifies each record, labelling the connected fruit variety. An alternative model consisted of applying the Transfer Learning technique in order to use the pre-configured ResNet50V2 model and fine-tuning on this specific dataset.
+*BRIEF DESCRIPTION*:
+
+>  Given a cleaned dataset of images representing single fruits
+> categories, the model implemented a Convolutional Neural Network that
+> classifies each record, labelling the connected fruit variety. An
+> alternative model consisted of applying the Transfer Learning
+> technique in order to use the pre-configured ResNet50V2 model and
+> fine-tuning on this specific dataset.
+
 *TECHNOLOGIES & APPROACHES*: 
 
  - Deep Learning
@@ -133,7 +141,23 @@ Table of Contents:
 > **Tesi di laurea magistrale/Prova Finale**
 
 *BRIEF DESCRIPTION*:
-*TECHNOLOGIES*: 
+
+> As a solution, I reformulating the PenGym (based on single agent architecture) as a Competitive Multi-Agent Reinforcement Learning (MARL) framework. Respectively, an attacker and a defender agent compete inside an emulated network called Cyber Range. The first one executes a series of reconnaissance (Nmap) and exploitation-based attacks (Metasploit), pushing to compromise the sensitive hosts, while the other tries to protect the network resources and mitigate the damages (packet filtering and host isolation), by interacting with the integrated Intrusion Prevention System (Snort). Integration of a responsive defensive agent profoundly altered the offensive learning dynamics. Rather than acting inside a static environment, the attacker was forced to refactor its cyber kill chain.
+
+*TECHNOLOGIES & APPROACHES*: 
+
+ - Ray Framework
+ - Multi-Agent Reinforcement Learning (MARL)
+ - Cyber Ranges
+ - Snort v2
+ - Linux distros (CentOs, Ubuntu)
+ - Nmap
+ - Metasploit
+ - Kill Chain
+ - Curriculum Learning
+ - Network Configuration
+ - KVM Virtualization
+
 *URL*: https://github.com/andre97p/APT_MSThesis
 
 ## Game Applet
@@ -155,6 +179,7 @@ Table of Contents:
  - Socket
  - JUnit
  - Object-Oriented Design
+ - Checkstyle
 
 *URL*: https://github.com/PietroForconi97/ing-sw-2019-Forconi-None-Ferraris 
 
@@ -166,8 +191,27 @@ Table of Contents:
 
 
 *BRIEF DESCRIPTION*:
+
+> The goal of this practical project is to implement DCT2 in an open
+> source environment and analyze its performance on multidimensional
+> arrays, each with different sizes. The second requirement involves
+> testing the effects of a compression algorithm on grayscale images.
+> The resulting images will retain reasonable quality depending on the
+> choice of certain parameters: F allows the execution of the DCT2 to be
+> parallelized over smaller blocks, while the value d corresponds to the
+> cutoff frequency used to discard the least significant pieces of
+> information. A graphical interface has been also implemented to allow
+> users to upload images and preview (in real time) the effects of
+> compression compared to the original quality.
+
 *TECHNOLOGIES*: 
-*URL:*
+ - Python
+ - DCT2
+ - Numpy
+ - Scipy
+ - JPEG
+ 
+*URL:* https://github.com/andre97p/Image-Compression
 
 
 ## Mobile App - Spesami
@@ -176,8 +220,23 @@ Table of Contents:
 
 > **Laboratorio di progettazione**
 
-*BRIEF DESCRIPTION*:
+*BRIEF DESCRIPTION*: 
+
+> Teamwork adopting the Scrum methodology, brings to the implementation through Android Studio of utility app that provides shared shopping lists in which participants can insert/add items and then splits the related costs. Different features were implemented by members of the team and evaluated according to acceptance criteria. Key focus consisted on following the proper methodology rather than final product.
+
 *TECHNOLOGIES*: 
+
+ - Kotlin
+ - Mobile developing
+ - Firebase authentication
+ - SQLite
+ - Android Jetpack Composer
+ - Git
+ - Android emulation
+ - JUnit
+ - MVVM
+![Architecture](https://drive.google.com/file/d/1sC8YlM8JEH09UnGNu1xe9tSyRFzGgvUU/view?usp=drive_link)
+
 *URL*: https://gitlab.com/s.gualtieri5/spesami/-/tree/main?ref_type=heads
 
 ## LegalBench
@@ -188,7 +247,16 @@ Table of Contents:
 
 *BRIEF DESCRIPTION*:
 
+> The problem deals with simple reasoning tasks in legal domain, applying the **Agentic RAG** methodology to provide supplementary knowledge about legal aspects, improving the retrieval strategy. Actual performance were evaluated through the LegalBench framework, to assess how well retrieval mechanisms can pinpoint exact legal references. I also included another LLM fine-tuned on legal documents, to enrich prompts complementary to augmentation idea. Benchmarks only concerned the retrieval strategy instead of semantic generation.
 *TECHNOLOGIES*: 
+
+ - RAG (Retrieval Augmented Generation)
+ - Fine-tuning
+ - LLM
+ - Agents
+ - Evaluation
+ - Hugging Face
+
 *URL*: https://colab.research.google.com/drive/1O1vD4eSNoz11DBhjETjRu_dBJDVX4YJW?usp=sharing
 
     
