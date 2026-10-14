@@ -157,7 +157,7 @@ Table of Contents:
  - Curriculum Learning
  - Network Configuration
  - KVM Virtualization
-
+![Framework components](framework.png)
 *URL*: https://github.com/andre97p/APT_MSThesis
 
 ## Game Applet
@@ -235,7 +235,7 @@ Table of Contents:
  - Android emulation
  - JUnit
  - MVVM
-![Architecture](https://drive.google.com/file/d/1sC8YlM8JEH09UnGNu1xe9tSyRFzGgvUU/view?usp=drive_link)
+![Mobile App Architecture](Spesami_architecture.png)
 
 *URL*: https://gitlab.com/s.gualtieri5/spesami/-/tree/main?ref_type=heads
 
